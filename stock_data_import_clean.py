@@ -23,3 +23,4 @@ print(stocks.describe())
 stocks_close = stocks.loc[:, 'Close'].copy()
 print(stocks_close.head())
 stocks_close.to_csv('Data/stocks_close.csv')
+

@@ -1,15 +1,16 @@
-# Largest tech companies: Stocks' Values EDA
+# Largest tech companies: EDA and Prediction of Stocks' Values
 
 ### Project overview:
 
 The main results of the project:
-* Analysed and visualised stocks' values and main indicators of the largest tech companies: Apple, Google, Meta and 
+* Analysed and visualised stocks' values and key performance indicators of the largest tech companies: Apple, Google, Meta and 
 Microsoft.
+* Developed the stock price predicting model (currently under development).
 
-Stocks' data of the largest tech companies for 10 years period (from 2014-07-01 till 2024-06-30) imported
-from Yahoo using yfinance library. 
+Stock data for the largest technology companies fora 10 years period (from 2014-07-01 to 2024-06-30) imported
+from Yahoo using the yfinance library. 
 
-Stocks' prices, normalised prices, annual stocks' return (yearly change) and the mean of annual stocks return 
+Stock prices, normalised prices, annual stocks' return (yearly change) and average of annual stock return 
 were calculated and visualised. 
 
 Technologies used:

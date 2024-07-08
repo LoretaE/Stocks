@@ -7,7 +7,7 @@ pd.set_option('display.max_columns', 20)
 pd.set_option('display.width', 150)
 
 #  Importing and saving stock data
-companies = ['AAPL', 'MSFT', 'META', 'GOOG', 'AMZN', 'BKNG']
+companies = ['AAPL', 'MSFT', 'META', 'GOOG']
 stocks = yf.download(companies, start='2014-07-01', end='2024-06-30')
 stocks.to_csv('Data/stocks.csv')
 

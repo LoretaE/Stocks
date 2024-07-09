@@ -27,15 +27,23 @@ Technologies used:
 The stock prices of the largest companies vary. It is notable that META's stock value are significantly higher than the 
 others, except for the sharp decrease in mid-2021 to late 2023. Apple and Google stock prices are quite close in this 
 decade.
+
 ![img.png](Images%2Fimg.png)
 
 ### Normalised stock prices (to the basic value)
 As the stock prices of the largest companies vary, the normalized stock prices (initially changed by the basic 
 value - 100), better reflect the real growth in stocks value. The largest increases in value are in Microsoft and 
 Apple stocks. 
+
 ![img_1.png](Images%2Fimg_1.png)
 
 ### Stocks annual return (yearly change, %)
+The stocks annual return shows that META's value skyrocked by the end of 2023. However, in 2022 the return 
+on these stocks was very negative (about -70%), therefore the increase in value in the next period seems huge.
+
+Microsoft, Apple and Google stocks have more stable and valuable annual stock returns. In 2022, there were also significant 
+declines in values, but lower than META's.
+
 ![img_2.png](Images%2Fimg_2.png)
 
 ### Stocks annual return (yearly change, %) boxplot

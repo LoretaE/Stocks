@@ -1,4 +1,4 @@
-# Largest tech companies: EDA and Prediction of Stocks' Values
+# Largest tech companies: EDA and Prediction of Stock Values
 
 ### Project overview:
 
@@ -10,8 +10,8 @@ Microsoft.
 Stock data for the largest technology companies fora 10 years period (from 2014-07-01 to 2024-06-30) imported
 from Yahoo using the yfinance library. 
 
-Stock prices, normalised prices, annual stocks' return (yearly change) and average of annual stock return 
-were calculated and visualised. 
+The key performance indicators - normalised stock prices, annual stocks' return (yearly change), average of annual stock return 
+have been calculated and visualised. 
 
 Technologies used:
 * Python
@@ -21,18 +21,18 @@ Technologies used:
 * Matplotlib 
 
 
-### Stocks' prices
+### Stock prices trend
 
 ![img.png](Images%2Fimg.png)
 
-### Stocks' normalised prices (to the basic value - 100%)
+### Normalised stock prices (to the basic value)
 ![img_1.png](Images%2Fimg_1.png)
 
-### Stocks' annual return (yearly change, %)
+### Stocks annual return (yearly change, %)
 ![img_2.png](Images%2Fimg_2.png)
 
-### Stocks' annual return (yearly change, %) boxplot
+### Stocks annual return (yearly change, %) boxplot
 ![img_3.png](Images%2Fimg_3.png)
 
-### Stocks' annual return (mean, %)
+### Average of stocks' annual return (%)
 ![img_4.png](Images%2Fimg_4.png)

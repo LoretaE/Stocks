@@ -3,9 +3,10 @@
 ### Project overview:
 
 The main results of the project:
-* Analysed and visualised stocks' values and key performance indicators of the largest tech companies: Apple, Google, Meta and 
-Microsoft.
-* Developed the stock price predicting model (for Microsoft stocks).
+* Analysed and visualised stocks' values and key performance indicators of the largest tech companies: Apple, Google, 
+Meta and Microsoft.
+* Developed the stock price prediction model accurately predicts the value of Microsoft stocks (mean absolute 
+percentage error: 0.02)
 
 Stock data for the largest technology companies for a 10 years period (from 2014-07-01 to 2024-06-30) imported
 from Yahoo using the yfinance library. 
@@ -66,5 +67,7 @@ The averages of other companies are quite similar:
 ![img_4.png](Images%2Fimg_4.png)
 
 ### Stock price prediction (MSFT)
-
+Developed the stock price prediction model accurately predicts the value of Microsoft stocks. 
+* Mean absolute percentage error:  0.02
+* Mean absolute error:  9.11
 ![img_5.png](Images%2Fimg_5.png)

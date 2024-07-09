@@ -70,4 +70,5 @@ The averages of other companies are quite similar:
 Developed the stock price prediction model accurately predicts the value of Microsoft stocks. 
 * Mean absolute percentage error:  0.02
 * Mean absolute error:  9.11
+
 ![img_5.png](Images%2Fimg_5.png)

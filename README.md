@@ -67,7 +67,7 @@ The averages of other companies are quite similar:
 ![img_4.png](Images%2Fimg_4.png)
 
 ### Stock price prediction (MSFT)
-Developed the stock price prediction model accurately predicts the value of Microsoft stocks. 
+Developed the stock price prediction model (Linear regression) accurately predicts the value of Microsoft stocks. 
 * Mean absolute percentage error:  0.02
 * Mean absolute error:  9.11
 

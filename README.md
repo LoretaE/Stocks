@@ -47,9 +47,22 @@ declines in values, but lower than META's.
 ![img_2.png](Images%2Fimg_2.png)
 
 ### Stocks annual return (yearly change, %) boxplot
+Annual stock returns are usually in the following ranges:
+* Apple - from 0% to 48%. A quarter of returns even up to 86%.
+* Google - from 9% to 42%. A quarter of returns up to 65%.
+* META - from 13% to 51%. A quarter up to 55%.
+* Microsoft - from 19% to 49%. A quarter up to 56%.
+
 ![img_3.png](Images%2Fimg_3.png)
 
 ### Average of stocks' annual return (%)
+The highest average of stock return belongs to META - 35.7%. However, the result was impacted by huge decrease in 
+previous period as it was mentioned above.
+The averages of other companies are quite similar: 
+* Microsoft - 28.2%
+* Apple - 27.6%
+* Google - 25.6%
+
 ![img_4.png](Images%2Fimg_4.png)
 
 ### Stock price prediction (MSFT)

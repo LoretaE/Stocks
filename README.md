@@ -24,10 +24,15 @@ Technologies used:
 
 
 ### Stock prices trend
-
+The stock prices of the largest companies vary. It is notable that META's stock value are significantly higher than the 
+others, except for the sharp decrease in mid-2021 to late 2023. Apple and Google stock prices are quite close in this 
+decade.
 ![img.png](Images%2Fimg.png)
 
 ### Normalised stock prices (to the basic value)
+As the stock prices of the largest companies vary, the normalized stock prices (initially changed by the basic 
+value - 100), better reflect the real growth in stocks value. The largest increases in value are in Microsoft and 
+Apple stocks. 
 ![img_1.png](Images%2Fimg_1.png)
 
 ### Stocks annual return (yearly change, %)

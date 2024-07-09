@@ -5,7 +5,7 @@
 The main results of the project:
 * Analysed and visualised stocks' values and key performance indicators of the largest tech companies: Apple, Google, Meta and 
 Microsoft.
-* Developed the stock price predicting model (currently under development).
+* Developed the stock price predicting model.
 
 Stock data for the largest technology companies fora 10 years period (from 2014-07-01 to 2024-06-30) imported
 from Yahoo using the yfinance library. 
@@ -17,6 +17,8 @@ Technologies used:
 * Python
 * Pandas
 * Yfinance
+* statsmodels.api
+* sklearn
 * Seaborn
 * Matplotlib 
 
@@ -36,3 +38,7 @@ Technologies used:
 
 ### Average of stocks' annual return (%)
 ![img_4.png](Images%2Fimg_4.png)
+
+### Stock price prediction (MSFT)
+
+![img_5.png](Images%2Fimg_5.png)

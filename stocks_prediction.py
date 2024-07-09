@@ -29,10 +29,15 @@ def developing_model(monthly_price, company):
     train_data = monthly_price.set_index('Date').loc['2022-03-31':'2024-03-31']
     test_data = monthly_price.set_index('Date').loc['2024-04-30':]
 
-    # Developing linear regression model
+    # Setting features and target for model training
     y = train_data[f'{company}']
     X = sm.add_constant(train_data.iloc[:, 1:])
+
+    # Setting and building the model
     model = sm.OLS(y, X).fit()
+    print(model.summary())
+
+    # Predicting prices using test data
     y_test = test_data[f'{company}']
     X_test = sm.add_constant(test_data.iloc[:, 1:])
     prediction = model.predict(X_test)
@@ -45,6 +50,7 @@ def developing_model(monthly_price, company):
     print('Mean absolute percentage error: ', error_mape)
     print('Mean absolute error: ', error_mae)
 
+    # Visualising actual vs predicted prices
     plt.figure(figsize=(12, 6))
     pred_df.plot()
     plt.title(f'{company} Stock Price Prediction, mape={error_mape}')

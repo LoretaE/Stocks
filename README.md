@@ -5,9 +5,9 @@
 The main results of the project:
 * Analysed and visualised stocks' values and key performance indicators of the largest tech companies: Apple, Google, Meta and 
 Microsoft.
-* Developed the stock price predicting model.
+* Developed the stock price predicting model (for Microsoft stocks).
 
-Stock data for the largest technology companies fora 10 years period (from 2014-07-01 to 2024-06-30) imported
+Stock data for the largest technology companies for a 10 years period (from 2014-07-01 to 2024-06-30) imported
 from Yahoo using the yfinance library. 
 
 The key performance indicators - normalised stock prices, annual stocks' return (yearly change), average of annual stock return 
